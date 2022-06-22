@@ -27,9 +27,9 @@ export const Welcome = () => {
           interactivity: {
             detectsOn: "canvas",
             events: {
-              onClick: { enable: false, mode: "push" },
+              onClick: { enable: true, mode: "attract" },
               onHover: {
-                enable: true,
+                enable: false,
                 mode: "attract",
                 parallax: { enable: false, force: 60, smooth: 10 },
               },
