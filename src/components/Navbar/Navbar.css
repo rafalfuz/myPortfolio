@@ -1,0 +1,17 @@
+.navbar {
+    height: 60px;
+    width: 100vw;
+    background-color: dodgerblue;
+    display: flex;
+}
+
+.navbar mobileNavbar {
+    color: red;
+}
+
+.navbar desktopNavbar{
+    color: violet;
+}
+.logo{
+    flex-basis: 50%;
+}
