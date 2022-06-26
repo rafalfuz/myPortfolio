@@ -13,3 +13,7 @@ export const App = () => {
     </div>
   );
 };
+//@todo
+//make a Logo
+//Finish navbar
+//install react-scroll
