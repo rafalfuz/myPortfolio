@@ -7,9 +7,10 @@ import "./App.css";
 export const App = () => {
   return (
     <div className="AppWrapper">
-      <Navbar />
+      <Navbar/>
       <Welcome />
       <div style={{ height: "200vh" }}></div>
+      <div name='sector4'></div>
     </div>
   );
 };

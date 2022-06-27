@@ -1,10 +1,43 @@
-.navbar {
+.navbarWrapper {
     height: 60px;
     width: 100vw;
-    background-color: dodgerblue;
+    position: fixed;
     display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
+    top: 0;
+    left: 0;
+    z-index: 100;
 }
+.navbar{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+}
+.logo {
+    color: #f5deb3;
+    font-size: 30px;
+    cursor: pointer;
+    flex-basis: 10%;
+}
+.mobileIcon{
+    display: none;
+}
+@media only screen and (max-width: 960px){
+    .mobileIcon{
+        display: block;
+        top: 0px;
+        right: 0px;
+        transform: translate(-100%, 60%);
+        cursor: pointer;
+        font-size: 3rem;
+        z-index: 9999;
+        color: red;
+    }
 
+}
 .navbar mobileNavbar {
     color: red;
 }
