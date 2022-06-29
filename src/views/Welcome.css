@@ -1,0 +1,39 @@
+.welcome{
+    width: 100vw;
+    height: 100vh;
+}
+.welcome-body{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#tsparticles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.name{
+    font-size: 42px;
+    color: tomato;
+}
+
+.btnClick{
+    width: 100px;
+    height: 33px;
+}
