@@ -18,9 +18,9 @@ export const particlesOption = {
     },
   },
   particles: {
-    color: { value: "f5deb3" },
+    color: { value: "#fbd7b4" },
     links: {
-      color: "f5deb3",
+      color: "#fbd7b4",
       distance: 150,
       enable: true,
       opacity: 0.4,

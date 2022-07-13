@@ -1,0 +1,43 @@
+.abillitySectionWrapper{
+    height: 80vh;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #044b4b;
+    color: #FBD7B4;
+}
+
+.abillityTitle{
+    font-size: 40px;
+    padding: 5vh;
+}
+.abillitiesWrapper{
+    margin: 0 auto;
+    width: 80%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    
+}
+
+@media screen and (max-width: 960px){
+    .abillitySectionWrapper{
+        height: 920px;
+        padding-bottom: 120px;
+    }
+    .abillityTitle{
+        font-size: 30px;
+        padding-top: 5vh;
+    }
+    .abillitiesWrapper{
+        width: 90%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 10px;
+    }
+}

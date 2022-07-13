@@ -1,11 +1,11 @@
 .welcome{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 .welcome-body{
     position: relative;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
 }
 
@@ -26,14 +26,47 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
 }
 
 .name{
-    font-size: 42px;
-    color: tomato;
+    font-size: 52px;
+    padding: 10px;
 }
 
-.btnClick{
-    width: 100px;
-    height: 33px;
+.profession{
+    font-size: 18px;
+    padding: 10px;
+}
+.mediaLinkList{
+    list-style-type: none;
+    display: flex;
+}
+.mediaLink{
+    width: 40px;
+    height: 40px;
+    border: none;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #fbd7b4;
+}
+@media screen and (max-width: 960px){
+    .profession{
+        font-size: 14px;
+        padding: 5px;
+    }
+    .mediaLink{
+        width: 25px;
+        height: 25px;
+        margin: 5px;
+        font-size: 25px;
+    }
+    .name{
+        width: 300px;
+    }
 }

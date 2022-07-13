@@ -4,47 +4,79 @@
     position: fixed;
     display: flex;
     align-items: center;
-    margin-left: 1.5rem;
     top: 0;
     left: 0;
     z-index: 100;
+    background-color: #044b4b;
+    color: #FBD7B4;
+    font-weight: bold;
 }
 .navbar{
     list-style-type: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100vw;
+    width: 100%;
+    font-size: 20px;
 }
-.logo {
-    color: #f5deb3;
-    font-size: 30px;
-    cursor: pointer;
-    flex-basis: 10%;
+.logoNavbar{
+    flex-basis: 50%;
 }
-.mobileIcon{
+.linksNavbar{
+    flex-basis: 50%;
+}
+.linksNavbar__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.linksNavbar__list-mobile{
     display: none;
 }
-@media only screen and (max-width: 960px){
-    .mobileIcon{
+.linksNavbar__list-link{
+    cursor: pointer;
+}
+.linksNavbar__list-link.active{
+    color: tomato;
+}
+.logo {
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.linksNavbar__list--mobileActive{
+    display: none;
+}
+@media screen and (max-width: 960px){
+    .linksNavbar__list-mobile{
         display: block;
-        top: 0px;
-        right: 0px;
-        transform: translate(-100%, 60%);
-        cursor: pointer;
-        font-size: 3rem;
-        z-index: 9999;
-        color: red;
+        text-align: right;
+        margin-right: 40px;
+        font-size: 24px;
     }
-
-}
-.navbar mobileNavbar {
-    color: red;
-}
-
-.navbar desktopNavbar{
-    color: violet;
-}
-.logo{
-    flex-basis: 50%;
+    .linksNavbar__list{
+        display: none;
+    }
+    .navbar{
+        font-size: 14px;
+    }
+    .mobileMenuWrapper{
+        position: absolute;
+        width: 100vw;
+        height: calc(100vh - 60px);
+        top: 60px;
+        left: -100%;
+        background-color: #044b4b;
+        transition: all .5s ease;
+    }
+    .linksNavbar__list--mobileActive{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+    }
+    .linksNavbar__list-link--mobileActive{
+        font-size: 28px;
+    }
 }

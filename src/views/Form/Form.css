@@ -1,0 +1,53 @@
+.formSectionWrapper{
+    height: 80vh;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #044b4b;
+    color: #FBD7B4;
+}
+
+.formTitle{
+    font-size: 40px;
+    padding: 5vh;
+}
+.formContainer{
+    width: 80%;
+    height: 80%;;
+    margin: 0 0 0 auto;
+    display: flex; 
+    justify-content: center;
+    align-content: center;
+}
+.formDescription{
+    flex-basis: 50%;
+    border:1px solid blueviolet;
+    margin: 40px 0;
+    border-radius: 25px 0 0 25px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+}
+.iconBox{
+    margin: 0 auto;
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.formRubric{
+    margin: 0 auto;
+    flex-basis: 50%;
+    border: 1px solid blueviolet;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+}
+.inputForm{
+    width: 80%;
+    margin: 0 auto;
+}
+.formBtnSubmit{
+    width: 90%;
+    margin: 0 auto;
+    height: 40px;
+    
+}

@@ -1,0 +1,94 @@
+.aboutWrapper{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #044b4b;
+    color: #FBD7B4
+}
+.aboutTitle{
+    font-size: 40px;
+    padding-top: 5vh;
+}
+.personalDatas{
+
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+.personalLeft{
+
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: 50%;
+}
+.personalCircle{
+
+    flex-basis: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.personalRight{
+
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 40%;
+}
+
+.circlePhoto{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.personalDescription{
+    margin: 0 auto;
+    width: 50%;
+    padding: 15px;
+}
+.personalTag{
+    font-size: 11px;
+}
+.personalInfo{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FBD7B4;
+    text-decoration: none;
+}
+@media screen and (max-width: 960px){
+    .circlePhoto{
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        margin: 10px;
+    }
+    .personalTag{
+        font-size: 8px;
+    }
+    .personalInfo{
+        font-size: 12px;
+    }
+    .personalDatas{
+        height: 200px;
+    }
+    .personalMail,.personalPhoneNumber{
+        font-size: 10px;
+    }
+    .personalDescription{
+        margin: 0 auto;
+        width: 90%;
+        padding: 5px;
+    }
+    .aboutTitle{
+        font-size: 30px;
+        padding-top: 2vh;
+    }
+    .btnCv{
+        margin-top: 15px;
+        width: 250px;
+    }
+}
