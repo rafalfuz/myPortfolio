@@ -32,7 +32,7 @@ export const About = () => {
             className="personalInfo personalPhoneNumber"
             href="tel:+48784357983"
           >
-            784-357-983
+            784357983
           </a>
         </div>
       </div>

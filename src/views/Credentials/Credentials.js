@@ -12,7 +12,7 @@ export const Credentials = () => {
           {" "}
           <CredentialCard
             title="Web developer od podstaw w 15 dni"
-            publisher="Samuraj Programowania - Udemy"
+            publisher="Samuraj Programowania - Udemy.com"
             year="2020"
             link="https://www.udemy.com/certificate/UC-7c3c0cf8-737a-46be-be42-fcaa619337a6"
           />
@@ -21,7 +21,7 @@ export const Credentials = () => {
           {" "}
           <CredentialCard
             title="Front-end zaawansowany w 15 dni"
-            publisher="Samuraj Programowania - Udemy"
+            publisher="Samuraj Programowania - Udemy.com"
             year="2020"
             link="https://www.udemy.com/certificate/UC-ff3c1404-3192-4772-85cc-c15ea7c6da84"
           />
@@ -29,7 +29,7 @@ export const Credentials = () => {
         <div className="box">
           <CredentialCard
             title="Programowanie w JavaScript"
-            publisher="Samuraj Programowania - Udemy"
+            publisher="Samuraj Programowania - Udemy.com"
             year="2020"
             link="https://www.udemy.com/certificate/UC-f8fb0cf6-24e0-4680-965d-3f2950c56f69/"
           />
@@ -38,7 +38,7 @@ export const Credentials = () => {
           {" "}
           <CredentialCard
             title="React od podstaw"
-            publisher="Samuraj Programowania - Udemy"
+            publisher="Samuraj Programowania - Udemy.com"
             year="2020"
             link="https://www.udemy.com/certificate/UC-bc7be620-615a-4801-b254-569d787f5018"
           />
@@ -46,9 +46,9 @@ export const Credentials = () => {
         <div className="box">
           {" "}
           <CredentialCard
-            title="Certyfikat React"
-            publisher="Adam Romański aka hello roman - eduweb.pl"
-            year="2020"
+            title="React"
+            publisher="Adam Romański (hello roman) - eduweb.pl"
+            year="2021"
             link="https://eduweb.pl/profil/133665/certyfikaty/8d22-c9bf-7be1-4cd6/react"
           />
         </div>
