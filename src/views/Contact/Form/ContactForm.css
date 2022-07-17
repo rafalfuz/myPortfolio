@@ -1,0 +1,48 @@
+.formRubric{
+    margin:0;
+	color:#6a6f8c;
+	background:#04284b;
+    flex-basis: 50%;
+}
+.formWrapper{
+    width:100%;
+    height: 100%;
+	margin:auto;
+    position:relative;
+    background-image: url(../../../assets//formImg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+	box-shadow: 0 10px 30px -10px hsla(0,0%,0%,0.9);  
+}
+.formContainer{
+    width:100%;
+    height: 100%;
+	position:absolute;
+	background:rgba(40,57,101,.8);
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-right: none;
+}
+.inputForm{
+    width: 80%;
+    margin: 30px auto;
+    height: 40px;
+    background-color: #04284b;
+    border: none;
+    outline: none;
+    color: #FBD7B4;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.inputForm.inputTextarea{
+    height: 100px;
+    text-align: left;
+    padding: 10px;
+}
+.formBtnSubmit{
+    width: 50%;
+    margin: 25px auto;   
+}

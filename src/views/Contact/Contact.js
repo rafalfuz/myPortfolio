@@ -1,14 +1,15 @@
 import React from "react";
+import { ContactForm } from "./Form/ContactForm";
 import { SiGmail } from "react-icons/si";
 
-import "./Form.css";
-export const Form = () => {
+import "./Contact.css";
+export const Contact = () => {
   return (
     <>
-      <section className="formSectionWrapper" name="contactSection">
-        <div className="formTitle">Formularz</div>
-        <div className="formContainer">
-          <div className="formDescription">
+      <section className="contactSectionWrapper" name="contactSection">
+        <div className="contactTitle">Contact</div>
+        <div className="contactContainer">
+          <div className="contactDescription">
             <h2>Hello work!</h2>
             <h3>Randomly joke first part</h3>
             <p>
@@ -24,14 +25,13 @@ export const Form = () => {
               <SiGmail />
             </div>
           </div>
-          <form className="formRubric">
-            <input className="inputForm name" type="text"></input>
-            <input className="inputForm contact" type="text"></input>
-            <textarea className="inputForm text" type="textarea"></textarea>
-            <button className="formBtnSubmit">Send</button>
-          </form>
+          <ContactForm />
         </div>
       </section>
     </>
   );
 };
+
+//#04284b
+//#FBD7B4
+//#044b4b;

@@ -4,7 +4,7 @@ import { Navbar } from "./components/Navbar/Navbar";
 import { About } from "./views/AboutSection/AboutSection";
 import { Abillity } from "./views/Abillity/Abillity";
 import { Credentials } from "./views/Credentials/Credentials";
-import { Form } from "./views/Form/Form";
+import { Contact } from "./views/Contact/Contact";
 
 import "./App.css";
 
@@ -19,7 +19,7 @@ export const App = () => {
         <About />
         <Abillity />
         <Credentials />
-        <Form />
+        <Contact />
       </main>
     </div>
   );

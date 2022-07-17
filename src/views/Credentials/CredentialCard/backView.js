@@ -11,6 +11,7 @@ const backCardStyles = {
   credentialIcon: {
     fontSize: "51px",
     color: "#fbd7b4",
+    padding: "10px",
   },
 };
 
