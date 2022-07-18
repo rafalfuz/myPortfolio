@@ -16,7 +16,7 @@ import "./Abillity.css";
 export const Abillity = () => {
   return (
     <section className="abillitySectionWrapper" name="abillitiesSection">
-      <h3 className="abillityTitle">Abillities</h3>
+      <h3 className="abillityTitle">Umiejętności</h3>
       <div className="abillitiesWrapper">
         <AnimatedCard icon={<FaHtml5 />} text="HTML" />
         <AnimatedCard icon={<FaCss3 />} text="CSS" />

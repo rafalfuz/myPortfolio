@@ -6,14 +6,14 @@ import "./AboutSection.css";
 export const About = () => {
   return (
     <section className="aboutWrapper" name="aboutSection">
-      <h2 className="aboutTitle">About</h2>
+      <h2 className="aboutTitle">O mnie</h2>
       <div className="personalDatas">
         <div className="personalLeft">
-          <div className="personalTag">NAME</div>
+          <div className="personalTag">IMIĘ I NAZWISKO</div>
           <p className="personalInfo personalName">Rafał Fuz</p>
-          <div className="personalTag">BIRTH</div>
+          <div className="personalTag">DATA URODZENIA</div>
           <p className="personalInfo personalBirthDate">10.07.1990</p>
-          <div className="personalTag">BIRTH PLACE</div>
+          <div className="personalTag">MIEJSCE ZAMIESZKANIA</div>
           <p className="personalInfo personalBirthCity">Płock</p>
         </div>
         <div className="personalCircle">
@@ -27,7 +27,7 @@ export const About = () => {
           >
             rafalfuz@gmail.com
           </a>
-          <div className="personalTag">PHONE</div>
+          <div className="personalTag">NUMER TELEFONU/WHATSAPP</div>
           <a
             className="personalInfo personalPhoneNumber"
             href="tel:+48784357983"
@@ -37,13 +37,14 @@ export const About = () => {
         </div>
       </div>
       <p className="personalDescription">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident
-        ducimus atque odio, ex delectus voluptatem eligendi nobis. Voluptatum,
-        hic facere consectetur repudiandae autem eius alias provident quos ad
-        accusantium eligendi! Lorem ipsum dolor sit amet consectetur,
-        adipisicing elit. Provident ducimus atque odio, ex delectus voluptatem
-        eligendi nobis. Voluptatum, hic facere consectetur repudiandae autem
-        eius alias provident quos ad accusantium eligendi
+        Cześć. Po pierwsze, miło mi gościć Cię na swojej stronie. Po drugie,
+        skoro tu jesteś zapewne chciałbyś się dowiedzieć czegoś o mnie. Od ponad
+        10 lat zajmuję się pracą w kinie, w okresie pandemii kiedy zaczęto
+        wprowadzać obostrzenia i tymczasowo zamykać kina, wolny czas poświęciłem
+        nauce programowania. Na pierwszy ogień trafił kanał na YouTube "Pasja
+        Informatyki", to tam dowiedziałem się o bardzo ogólnych podstawach
+        programowania na bazie C++, następne przeszedłem do tutoriali o HTML,
+        CSS i JavaScripcie - wiecej o kursach w sekcji Kwalifikacje
       </p>
       <Button
         text="CV"

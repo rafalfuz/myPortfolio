@@ -12,7 +12,7 @@
 }
 .contactContainer{
     width: 80%;
-    height: 80%;;
+    height: 80%;
     margin: 0 0 0 auto;
     display: flex; 
     justify-content: center;
@@ -31,14 +31,87 @@
 }
 .iconBox{
     margin: 0 auto;
-    width: 150px;
+    width: 240px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactDescription--title{
+    font-size: 36px;
+}
+.contactDescription--subtitle{
+    font-size: 24px;
+}
+.contactDescription--text{
+    margin: 0 auto;
+    width:  80%;
+    line-height: 2;
+}
+.contactIconCircle{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FBD7B4;
+}
+.contactLink{
+    font-size: 24px;
+    transition: all .3s ease-in-out;
+}
+.contactLink:hover{
+    transform: scale(1.2);
+}
+
+.contactLink.contactLink--linkedin{
+    color: #0e76a8;
+}
+.contactLink.contactLink--gmail{
+    color: #DB4437;
+}
+.contactLink.contactLink--facebook{
+    color: #4267B2;
+}
+.contactLink.contactLink--github{
+    color: #171515 ;
+}
+.contactLink.contactLink--whatsapp{
+    color: 	#25D366 ;
 }
 
 @media screen and (max-width: 960px){
+    .contactSectionWrapper{
+        height: auto;
+        padding-bottom: 20px;
+    }
     .contactTitle{
         font-size: 30px;
-        padding-top: 5vh;
+        padding-top: 2vh;
+    }
+    .contactContainer{
+        flex-direction: column;
+        height: 160vh;
+        width: 90vw;
+        margin: 0 auto;
+        justify-content: flex-start;
+    }
+    .contactDescription{
+        margin: 0 auto;
+        border-radius: 25px 25px 0 0;
+        flex-basis: 50%;
+    }
+    .contactDescription--title{
+        font-size: 30px;
+    }
+    .contactDescription--subtitle{
+        font-size: 22px;
+    }
+    .contactDescription--text{
+        margin: 0 auto;
+        width:  80%;
+        line-height: 1.5;
+        
     }
 }

@@ -38,7 +38,7 @@ export const Navbar = () => {
               smooth={true}
               offset={-50}
             >
-              ABOUT
+              O MNIE
             </Link>
             <Link
               activeClass="active"
@@ -47,7 +47,7 @@ export const Navbar = () => {
               smooth={true}
               offset={-50}
             >
-              ABILLITIES
+              UMIEJĘTNOŚCI
             </Link>
             <Link
               activeClass="active"
@@ -56,7 +56,7 @@ export const Navbar = () => {
               smooth={true}
               offset={-50}
             >
-              CREDENTIALS
+              KWALIFIKACJE
             </Link>
             <Link
               activeClass="active"
@@ -65,7 +65,7 @@ export const Navbar = () => {
               smooth={true}
               offset={-50}
             >
-              CONTACT
+              KONTAKT
             </Link>
           </ul>
           <div
@@ -81,7 +81,7 @@ export const Navbar = () => {
                 offset={-50}
                 onClick={removeMenuMobile}
               >
-                ABOUT
+                O MNIE
               </Link>
               <Link
                 activeClass="active"
@@ -91,7 +91,7 @@ export const Navbar = () => {
                 offset={-50}
                 onClick={removeMenuMobile}
               >
-                ABILLITIES
+                UMIEJĘTNOŚCI
               </Link>
               <Link
                 activeClass="active"
@@ -101,7 +101,7 @@ export const Navbar = () => {
                 offset={-50}
                 onClick={removeMenuMobile}
               >
-                CREDENTIALS
+                KWALIFIKACJE
               </Link>
               <Link
                 activeClass="active"
@@ -111,7 +111,7 @@ export const Navbar = () => {
                 offset={-50}
                 onClick={removeMenuMobile}
               >
-                CONTACT
+                KONTAKT
               </Link>
             </ul>
           </div>

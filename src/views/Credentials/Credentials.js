@@ -6,7 +6,7 @@ import "./Credentials.css";
 export const Credentials = () => {
   return (
     <section className="credentialsSectionWrapper" name="credentialsSection">
-      <h1 className="credentialsTitle">Credentials</h1>
+      <h1 className="credentialsTitle">Kwalifikacje</h1>
       <div className="credentialsCardsWrapper">
         <div className="box">
           {" "}

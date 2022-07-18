@@ -20,6 +20,12 @@
     align-items: center;
     justify-content: center;
     font-size: 14px;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
 }
 @media screen and (max-width: 960px){
     .cardWrapper{
@@ -28,6 +34,6 @@
         height: 140px;
     }
     .cardIcon{
-        font-size: 45px;;
+        font-size: 45px;
     }
 }

@@ -46,3 +46,15 @@
     width: 50%;
     margin: 25px auto;   
 }
+
+@media screen and (max-width: 960px){
+    .formRubric{
+        flex-basis: 50%;
+    }
+    .inputForm{
+        margin: 10px auto;
+    }
+    .formBtnSubmit{
+        width: 75%;
+    }
+}

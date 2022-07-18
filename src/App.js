@@ -5,6 +5,7 @@ import { About } from "./views/AboutSection/AboutSection";
 import { Abillity } from "./views/Abillity/Abillity";
 import { Credentials } from "./views/Credentials/Credentials";
 import { Contact } from "./views/Contact/Contact";
+import { Footbar } from "./Footbar/Footbar";
 
 import "./App.css";
 
@@ -21,6 +22,9 @@ export const App = () => {
         <Credentials />
         <Contact />
       </main>
+      <footer>
+        <Footbar />
+      </footer>
     </div>
   );
 };
