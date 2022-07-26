@@ -1,1 +1,1 @@
-https://rafalfuz.pl
+http://rafalfuz.pl
